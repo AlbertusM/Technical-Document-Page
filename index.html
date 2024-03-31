@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Document Page</title>
+</head>
+<body>
+    <nav id="navbar">
+    <header><h2>JavaScript Documentation</h2></header>
+    <ul>
+            <li><a class="nav-link" href="#javascript">JavaScript</a></li>
+            <li><a class="nav-link" href="#So_what_is_HTML">So what is HTML</a></li>
+            <li><a class="nav-link" href="#So_what_is_CSS_really">So what is CSS really</a></li>
+            <li><a class="nav-link" href="#Object_basics">Object basics</a></li>
+            <li><a class="nav-link" href="#A_prototype_based_language">A prototype based language</a></li>
+            <li><a class="nav-link" href="#javascript_programing">JavaScript Programing</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+
+        <div >
+            <section class="main-section" id="javascript">
+                <header>
+                    <h1>JavaScript</h1>
+                </header>
+                <article>
+                    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+
+                            This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about APIs specific to Web pages, please see Web APIs and DOM.</p>
+
+                    <code></code>
+                    <code></code>
+
+                    <p>The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, ECMA International published the sixth major version of ECMAScript, which is officially called ECMAScript 2015, and was initially referred to as ECMAScript 6 or ES6. Since then, ECMAScript standards are on yearly release cycles. This documentation refers to the latest draft version, which is currently ECMAScript 2020.
+                            
+                            Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and uses.</p>
+                </article>
+            </section>
+            <section class="main-section" id="So_what_is_HTML">
+                <header>
+                    <h1>So what is HTML</h1>
+                </header>
+                <article>
+                    <p>HTML is not a programming language; it is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.</p>
+
+                    <li></li>
+                    <code></code>
+                    <code></code>
+
+                    <p>The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins. The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results. The content: This is the content of the element, which in this case, is just text. The element: The opening tag, the closing tag and the content together comprise the element.</p>
+                </article>
+            </section>
+            <section class="main-section" id="So_what_is_CSS_really">
+                <header>
+                    <h1>So what is CSS really</h1>
+                </header>
+                <article>
+                    <p>Like HTML, CSS is not really a programming language. It is not a markup language either — it is a style sheet language. This means that it lets you apply styles selectively to elements in HTML documents. We still need to apply the CSS to your HTML document. Otherwise, the CSS styling won't affect how your browser displays the HTML document.</p>
+
+                    <li></li>
+                    <code></code>
+
+                    <p>The whole structure is called a rule set (but often "rule" for short). Note also the names of the individual parts:
+
+                            Selector
+                            The HTML element name at the start of the rule set. It selects the element(s) to be styled (in this case, <p> elements). To style a different element, just change the selector.
+                            Declaration
+                            A single rule like color: red; specifying which of the element's properties you want to style.
+                            Properties
+                            Ways in which you can style a given HTML element. (In this case, color is a property of the <p> elements.) In CSS, you choose which properties you want to affect in your rule.
+                            Property value
+                            To the right of the property after the colon, we have the property value, which chooses one out of many possible appearances for a given property (there are many color values besides red).</p>
+                </article>
+            </section>
+            <section class="main-section" id="Object_basics">
+                <header>
+                    <h1>Object basics</h1>
+                </header>
+                <artcile>
+                    <p>An object is a collection of related data and/or functionality (which usually consists of several variables and functions — which are called properties and methods when they are inside objects.) Let's work through an example to understand what they look like.
+
+                            To begin with, make a local copy of our oojs.html file. This contains very little a script element for us to write our source code into. We'll use this as a basis for exploring basic object syntax. While working with this example you should have your developer tools JavaScript console open and ready to type in some commands.
+                            
+                            As with many things in JavaScript, creating an object often begins with defining and initializing a variable.</p>
+
+                    <code></code>
+                    <li></li>
+
+                    <p>The value of an object member can be pretty much anything — in our person object we've got a string, a number, two arrays, and two functions. The first four items are data items, and are referred to as the object's properties. The last two items are functions that allow the object to do something with that data, and are referred to as the object's methods.
+
+                            An object like this is referred to as an object literal — we've literally written out the object contents as we've come to create it. This is in contrast to objects instantiated from classes, which we'll look at later on.
+                            
+                            It is very common to create an object using an object literal when you want to transfer a series of structured, related data items in some manner, for example sending a request to the server to be put into a database. Sending a single object is much more efficient than sending several items individually, and it is easier to work with than an array, when you want to identify individual items by name.</p>
+                </artcile>
+            </section>
+            <section class="main-section" id="A_prototype_based_language">
+                <header>
+                    <h1>A prototype based language</h1>
+                </header>
+                <artilce>
+                    <p>JavaScript is often described as a prototype-based language — to provide inheritance, objects can have a prototype object, which acts as a template object that it inherits methods and properties from. An object's prototype object may also have a prototype object, which it inherits methods and properties from, and so on. This is often referred to as a prototype chain, and explains why different objects have properties and methods defined on other objects available to them.
+
+                            Well, to be exact, the properties and methods are defined on the prototype property on the Objects' constructor functions, not the object instances themselves.
+                            
+                            In JavaScript, a link is made between the object instance and its prototype (its __proto__ property, which is derived from the prototype property on the constructor), and the properties and methods are found by walking up the chain of prototypes.</p>
+
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                    <code></code>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </artilce>
+            </section>
+            <section class="main-section" id="javascript_programing">
+                <header>
+                    <h1>Javascript Programing</h1>
+                </header>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <li></li>
+                    <code></code>
+                    <code></code>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </article>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
